@@ -1,6 +1,12 @@
 from calculator.core import add, sub
 
 def divide(x, y):
+    if y == 0:
+        return float('nan')
+
+    if x == 0:
+        return 0
+
     z = 0
     flag_not_done = True
     x_pos = abs(x)
@@ -12,6 +18,7 @@ def divide(x, y):
             z = add(z, 1)
         else:
             break
+
 
     if x > 0 and y > 0:
         return z
