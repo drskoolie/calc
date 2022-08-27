@@ -3,5 +3,10 @@ from calculator.divide import divide
 from calculator.multiply import multiply
 
 def quotient(x, y):
-    # x - (x//y * y) 
-    return sub(x, multiply(divide(x,y), y))
+    # x - (x//y * y)
+    z = sub(x, multiply(divide(x,y), y))
+
+    if y > 0:
+        return z
+    else:
+        return -z

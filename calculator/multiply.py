@@ -1,6 +1,9 @@
 from calculator.core import add, sub
 
 def multiply(x, y):
+    if x != x or y!= y:
+        return float('nan')
+
     z = 0
 
     for _ in range(abs(x)):
