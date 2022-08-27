@@ -7,10 +7,10 @@ def divide(x, y):
     if x == 0:
         return 0
 
-    z = 0
     flag_not_done = True
     x_pos = abs(x)
     y_pos = abs(y)
+    z = 0
 
     while 1:
         if x_pos >= y_pos:
@@ -18,7 +18,6 @@ def divide(x, y):
             z = add(z, 1)
         else:
             break
-
 
     if x > 0 and y > 0:
         return z
