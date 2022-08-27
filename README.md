@@ -13,7 +13,9 @@ We need these three functions to be implemented (using Test Driven Development!!
 2. Division (integer)
 3. Quotient
 
-`cd` in to the `docs/` folder and read the instructions given.
+Run `git clone https://github.com/drskoolie/calc` to get a copy saved on your machine and then `cd` in to the `docs/` folder to read the instructions given.
+
 
 Sincerely,
+
 DrSkoolie
