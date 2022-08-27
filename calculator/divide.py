@@ -1,8 +1,9 @@
 from calculator.core import add, sub
 
+
 def divide(x, y):
     if y == 0:
-        return float('nan')
+        return float("nan")
 
     if x == 0:
         return 0
