@@ -15,7 +15,9 @@ We need these three functions to be implemented (using Test Driven Development!!
 
 Run `git clone https://github.com/drskoolie/calc` to get a copy saved on your machine and then `cd` in to the `docs/` folder to read the instructions given.
 
+This is a new line
 
 Sincerely,
 
 DrSkoolie
+
