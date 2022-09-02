@@ -1,4 +1,4 @@
-from calculator.core import add, sub
+from calculator.core import add
 
 
 def multiply(x, y):
@@ -14,3 +14,4 @@ def multiply(x, y):
         return z
     else:
         return -z
+
